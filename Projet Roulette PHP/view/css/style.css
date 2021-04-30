@@ -1,0 +1,179 @@
+body{
+margin:auto;
+max-width:1160px;
+background-image:url(bg-stars-2560.jpg);
+color:#00A9BF;
+}
+
+
+header ul{
+	display:block;
+	text-align:center;
+}
+
+header ul li{
+	padding : 0.1em 1em 0 0;
+	display:inline-block;
+	font-size:2rem;
+	
+}
+
+
+h1{
+	color:rgb(60,232,254);
+	padding-left:25px;
+}
+h1:after{
+	content:" /";
+}
+
+h2{
+	text-align:center;
+}
+
+a{
+	color:orange;
+}
+
+footer{
+	clear:left;
+	padding: 5px 0.5 em 7px;
+
+}
+
+p{
+	padding: 0 1em;
+}
+
+
+main ul{
+	margin-left:2em;
+}
+
+.tab_button{
+	color:rgb(60,232,254);
+	text-decoration:none;
+	display:inline-block;
+	width:300px;
+	height:41px;
+	background:url('tab.png') no-repeat center top
+}
+	
+.tab_button:hover{
+	width:300px;
+	height:41px;
+	color:white;
+	background:url('glow_tab.png') no-repeat center bottom,url('tab.png') no-repeat center top
+}
+
+footer a{
+	color:orange;
+	text-decoration:none;
+}
+
+footer ul{
+	display:block;
+	text-align:center;
+}
+
+footer ul li{
+	font-size:1.2rem;
+	padding : 0.1em 1em 0 0;
+	display:inline-block;	
+}
+
+
+main{
+	float:left;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-color: rgb(122,246,251);
+	border-width: medium;
+	background-color: rgba(19,34,49,0.8);
+	min-width:1200px;
+	text-shadow:none;
+}
+
+
+
+.mot_du_jour section{
+	color:white;
+	background-color:rgba(48,56,61,0.6);
+	padding: 0 1em;
+	margin-right:250px;
+	margin-left:250px;
+	font-size:1.2rem;
+	overflow:auto;
+	border: 1px dotted grey;
+	border-radius:3px;
+	margin-bottom: 2em;
+	box-shadow: 3px 3px rgba(255,255,255, 0.3);
+	overflow:hidden;
+}
+
+.login{
+	display:flex;
+	justify-content:flex-end;
+	position:absolute;
+	top:0;
+	right:0;
+	clear:left;
+}
+
+
+.login a{
+	/*
+	clear:left;
+	float:left;
+	outline:0;
+	plus necessaire à priori après modifs
+	*/	
+	padding:18px 2px 6px 6px;
+	text-align:center;
+
+	color:rgb(60,232,254);
+	text-decoration:none;
+	
+	height:35px;
+	width:120px;
+	border:1px solid transparent;
+    border-image: url(border.svg);
+	border-image-slice:2 fill;
+
+}
+
+.login a:hover{
+	color:white;
+    border-image: url(border3.svg);
+	border-image-slice:2 fill;
+}
+
+/*
+.login a+a{
+	border-top:none;
+}*/
+
+form{
+	transform:scale(1.1);
+	-ms-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	text-align:center;
+}
+
+input[type="submit"]{
+
+ cursor:pointer;
+ border-radius: 4px;
+ background-color: rgb(19,34,49);
+ border-color: rgb(1,116,129);
+ color:#00A9BF
+
+}
+
+form input{
+	color:white;
+	background-color:rgb(29,40,60);
+	border:2px solid;
+	border-color: rgb(1,116,129);
+}
+
